@@ -6,9 +6,10 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(planets)# code an argument here
-  planets.collect do |nature|
-    return nature.upcase + "!"
+  planets.map do |nature|
+    nature.upcase + "!"  
   end
+  
 end
 
 def long_planeteer_calls# code an argument here
