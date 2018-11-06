@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planets)# code an argument here
   planets.map do |nature|
-    nature = nature.capitalize 
+    nature = nature.capitalize
     "#{nature}!"
   end
 
